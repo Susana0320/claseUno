@@ -1,0 +1,52 @@
+#container{
+    display: flex;
+    flex-direction: column;
+    min-width: 100vh;
+    background-color: #99bd05;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#input_pais{
+    width: 40%;
+    height: 30px;
+    border-radius: 16px;
+    font-size: medium;
+    padding-left: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #f2e8cc;
+}
+
+#button_search{
+    width: 15%;
+    height: 30px;
+    border-radius: 16px;
+    margin-top: 15px ;
+    font-size: medium ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #f2e8cc;
+}
+
+#country-information{
+    width: 60%;
+    height: 300px;
+    background-color: #de3891;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: medium;
+}
+
+#show-info {
+    display: flex; /* Hace que los elementos hijos se distribuyan en el eje X */
+    justify-content: space-between; /* Distribuye los elementos equitativamente */
+    gap: 30px; /* Añade espacio entre los elementos */
+    padding: 30px;
+    font-size: small;   
+}
+
+
+
